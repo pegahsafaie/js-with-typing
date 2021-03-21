@@ -3,7 +3,13 @@
 vscode + eslint plugin
 
 # How to run the project
+run ``
+npm install
+npm run dev
+ ``
+eslint should show you typing errors. you can play with the project and either fix the error or add more to the project
 
+# Explain the project
 
 # Useful links:
 JSDOC cheat sheet: https://devhints.io/jsdoc

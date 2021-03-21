@@ -1,5 +1,5 @@
 
-const input = ["./index.js"];
+const input = ["src/index.js"];
 export default [
   {
     input,

@@ -46,13 +46,13 @@ Still no errors from IDE or ESLint, but autocompleting works now.
 Now add // @ts-check to the top of the main.js file and you should see errors appearing!
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/19w71i5tprg26gm8icly.jpg)
 
-Is it possible to define our own custom types? Sure we can, with @typedef annotations of JSDoc. Let's see how. 
+**Q**: Is it possible to define our own custom types? Sure we can, with @typedef annotations of JSDoc. Let's see how. 
 
 - using `@typedef` we define a new type named `Animal` with two properties.
 - using `@type` we assign this type to a variable.
 ![Define and use custom types](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qavkkw4e73jwy7rycxrh.jpg)
 
-Can we use the same type in multiple places? Like we use modules to organize our code? Yes! We can do it by using @import and here's how:
+**Q**: Can we use the same type in multiple places? Like we use modules to organize our code? Yes! We can do it by using @import and here's how:
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/am85d1wrd0bf2b262mog.jpg)
 
 If someone changes the `race` property to `type` in the future, our JSCode annotations help him to see the side effect and fix it!
@@ -74,8 +74,9 @@ Enough talking through the flowers. Things are not always so easy as they are di
 
 ## How to run the project
 
-go to your project folder and run ``
+go to your project folder and run 
 
+```bash
 
 npm install
 
@@ -83,7 +84,7 @@ npm run build // build your project using rollup and put the bundle under the di
 
 node dist/cjs/index.js // execute the index.js using node
 
-``
+```
 
 ## Useful links:
 

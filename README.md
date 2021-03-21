@@ -43,7 +43,7 @@ OK! time to fix them in two steps:
 
 Still no errors from IDE or ESLint, but autocompleting works now.
 
-Now add // @ts-check to the top of the main.js file and you should see errors appearing!
+Now add // @ts-check to the top of the main.js file and you should see errors appearing! Although `isPositive` doesn't report any errors, using autocomplete we can see the output which is a string and we can therefore avoid the bug.
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/19w71i5tprg26gm8icly.jpg)
 
 **Q**: Is it possible to define our own custom types? Sure we can, with @typedef annotations of JSDoc. Let's see how. 

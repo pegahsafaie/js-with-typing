@@ -8,7 +8,7 @@ What I like best about this approach is that you can gradually introduce typing 
 ## Requirement
 - VSCode IDE
 - ESLint extension installed and enabled
-You must be familiar with JSDoc. Maybe you already used it but did not know its name ;)
+- You must be familiar with JSDoc. Maybe you already used it but did not know its name ;)
 - A little bit! understanding of typing
 
 ## Explain the project

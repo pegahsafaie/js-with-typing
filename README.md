@@ -3,7 +3,7 @@ Add typescript to your projects? There are many good reasons why you might not b
 On the other hand we cant overlook the advantages of typing like validation, problem detection at compile time and better debugging experience.
 [This article](https://dev.to/puruvj/using-typescript-without-typescript-3pke) shows how the combination of VSCode + ESLint + **JSDOC** allows you to type your project without using typescript. I created this small JS sample project with a practical readme to play around with this concept.
 
-What I like best about this approach is that you can gradually introduce typing into your project without the need for any extra transpilation step in build or configuration boilerplates or ts and js files in the project.
+What I like best about this approach is that you can gradually introduce typing into your project without the need for any extra transpilation step in build or configuration boilerplates in the project.
 
 ## Requirement
 - VSCode IDE

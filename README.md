@@ -55,7 +55,7 @@ Now add // @ts-check to the top of the main.js file and you should see errors ap
 **Q**: Can we use the same type in multiple places? Like we use modules to organize our code? Yes! We can do it by using @import and here's how:
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/am85d1wrd0bf2b262mog.jpg)
 
-If someone changes the `race` property to `type` in the future, our JSCode annotations help him to see the side effect and fix it!
+If someone changes the `race` property to `type` in the future, our JSDoc annotations help him to see the side effect and fix it!
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/48f64vx6n32uwvpiyteg.jpg)
 
 The `Animal` type can be defined once at the top of a file and be used many times there afterwards.
@@ -66,7 +66,7 @@ The `Animal` type can be defined once at the top of a file and be used many time
 ## The challenges of moving to JSDoc: 
 
 Enough talking through the flowers. Things are not always so easy as they are discussed here.
-**Learning Curve:** By complicated typings, you will still need to know about typing concepts and learn JSCode syntax.
+**Learning Curve:** By complicated typings, you will still need to know about typing concepts and learn JSDoc syntax.
 
 **Organizing** : Organizing your JSDocs and avoiding duplication. (JSDoc can tie into the modules concept)
  
